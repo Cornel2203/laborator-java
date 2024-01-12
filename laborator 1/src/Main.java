@@ -13,6 +13,8 @@ public class Main {
                  System.out.println("Luna "+months[i]+" are "+month_days[i]+" zile");
             if(month_days[i]<31)
                 suma=suma+month_days[i];
+             String abbreviatedMonth = months[i].substring(0, 3);
+            System.out.println("Luna " + abbreviatedMonth + " Ziua " + month_days[i] )
         }
         System.out.println("suma lunilor cu mai putin de 31 de zile este "+suma);
     }
